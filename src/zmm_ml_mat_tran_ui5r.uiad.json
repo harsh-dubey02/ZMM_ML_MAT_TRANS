@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "ML Material Transfer-Print Application"
+  },
+  "ui5AppDetails": {
+    "appId": "zmmmlmattran"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_ED7337B53D00FAE20830FBF441B3DA119F562E61_TM",
+    "semanticObject": "zmm_ml_mat_tran",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_ED7337B53D00FAE20830FBF441B3DA119F562E61_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "ML Material Transfer-Print Application",
+        "icon": "sap-icon://legend"
+      }
+    }
+  ]
+}

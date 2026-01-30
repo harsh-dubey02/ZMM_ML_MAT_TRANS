@@ -1,0 +1,19 @@
+managed implementation in class zbp_i_ml_mat_trans unique;
+strict ( 2 );
+
+define behavior for ZI_ML_MAT_TRANS alias ZI_ML_MAT_TRANS_DOC
+with unmanaged save
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  action ( features : instance ) ZPRINT result [1] $self;
+  update;
+  field ( readonly ) materialdocument;
+
+  mapping for ztb_ml_mat_trans  {
+      materialdocument = materialdocument;
+      base64        = base64;
+
+      }
+      }

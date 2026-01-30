@@ -1,0 +1,21 @@
+
+@Metadata.layer: #CORE
+@UI.headerInfo:{
+    typeName: 'MATERIAL TRANSFER',
+    typeNamePlural: 'MATERIAL TRANSFER',
+    title:{ type: #STANDARD, value: 'MaterialDocument' } }
+annotate entity ZC_ML_MAT_TRANS
+    with 
+{
+@UI.facet: [{ id : 'MaterialDocument',
+  purpose: #STANDARD,
+  type: #IDENTIFICATION_REFERENCE,
+  label: 'MATERIAL TRANSFER',
+   position: 10 }]
+   
+    @UI.lineItem:       [{ position: 10, label: 'MaterialDocument' },{ type: #FOR_ACTION , dataAction: 'ZPRINT', label: 'Generate Print'}]
+  @UI.identification: [{ position: 10, label: 'MaterialDocument' }]
+  @UI.selectionField: [{ position: 10 }]
+   Materialdocument;
+    
+}
